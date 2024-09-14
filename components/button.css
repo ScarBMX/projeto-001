@@ -1,0 +1,19 @@
+/* # para seletor de id 
+   . para seletor de classe */
+
+.button {
+    display: inline-block;
+    background-color: #F25A70;
+    padding: 18px 20px;
+    margin-right: 0px;
+    box-shadow: 5px 5px 0px black;
+    transition: transform 100ms cubic-bezier(.45,.96,.68,2.48);
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none; 
+}
+
+.button:hover {
+    transform: scale(1.01);
+}

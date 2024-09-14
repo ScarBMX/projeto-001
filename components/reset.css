@@ -1,5 +1,16 @@
+body {
+	font-family: 'Fira Code', Arial, Verdana, Helvetica, sans-serif;
+}
+
 body, h1, h2, h3 {
     margin: 0px;
+}
+
+button {
+	border: none;
+	font-family: inherit;
+	font-size: 20px;
+	color: white;
 }
 
 /* reset por Eric Meyer 

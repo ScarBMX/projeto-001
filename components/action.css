@@ -1,0 +1,19 @@
+.action {
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none; 
+    margin-right: 30px;
+
+}
+
+.action:before { /* quadrado a esquerda das palavras no menu */
+    content: '';
+    background-color: #F25A70;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
